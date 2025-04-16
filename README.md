@@ -23,3 +23,5 @@ Controls
     - Space: Fire a bullet
 
     - P: (Debug/bonus) Add one ammo
+
+![image](https://github.com/user-attachments/assets/f53ad39f-dfd8-42ad-9e46-46f5d774c581)
