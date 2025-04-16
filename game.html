@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gra Czołg</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="gameCanvas" width="1000" height="500"></canvas>
+    <div id="infoBar">
+        Shot down: <span id="score">0</span> |
+        Ammo: <span id="ammo">0</span> |
+        Wind: <span id="windSpeed">0</span> |
+        Power: <span id="power">0</span>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Controls: WS - adjust power, AD - rotate cannon, Space - fire
+    </div>
+    <div id="gameOverScreen" style="display: none; position: absolute; top: 0; left: 0; 
+        width: 100%; height: 100%; background: rgba(0, 0, 0, 0.8); 
+        color: white; display: flex; justify-content: center; 
+        align-items: center; flex-direction: column; font-size: 24px;">
+    <p>Koniec gry!</p>
+    <button onclick="restartGame()" style="padding: 10px 20px; font-size: 20px;">Zagraj ponownie</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

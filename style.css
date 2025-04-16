@@ -1,0 +1,33 @@
+
+body { 
+    text-align: center; 
+    margin: 0;
+    padding: 0;
+}
+
+canvas { 
+    background: lightgray; 
+}
+
+#infoBar {
+    background: #333;
+    color: white;
+    font-family: Arial, sans-serif;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+}
+
+@media (max-width: 1400px) {
+    #infoBar {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 900px) {
+    #infoBar {
+        font-size: 12px;
+    }
+}
